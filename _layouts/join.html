@@ -1,0 +1,13 @@
+---
+layout: default
+---
+{% include page-heading.html %}
+<figure class="discord-code">
+  {% if site.data.contact.discord_url != blank and site.data.contact.discord_url != "" %}
+  <a href="{{ site.data.contact.discord_url | escape }}" aria-label="Join the CERAS HRC Discord server"><img src="{{ site.data.contact.discord_qr | relative_url }}" width="296" height="296" alt="QR code to join the CERAS HRC Discord server"></a>
+  <figcaption><a class="text-link" href="{{ site.data.contact.discord_url | escape }}">Open Discord</a></figcaption>
+  {% else %}
+  <img src="{{ site.data.contact.discord_qr | relative_url }}" width="296" height="296" alt="Placeholder QR code. The Discord invite is coming soon.">
+  <figcaption>Placeholder QR. Discord invite coming soon.</figcaption>
+  {% endif %}
+</figure>

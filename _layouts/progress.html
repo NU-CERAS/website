@@ -1,0 +1,27 @@
+---
+layout: default
+---
+{% include page-heading.html %}
+<section class="progress-work content-section" id="development">
+  <div class="progress-overview">
+    <div class="progress-copy">
+      <p class="status">Simulation &amp; verification</p>
+      <h2>{{ site.data.progress.focus }}</h2>
+      <p>{{ site.data.progress.summary }}</p>
+    </div>
+  </div>
+  <figure class="simulation-visual">
+    <a href="{{ site.data.progress.image | relative_url }}" target="_blank" rel="noopener" aria-label="Open the full-size MuJoCo simulator screenshot in a new tab"><img src="{{ site.data.progress.image | relative_url }}" width="3456" height="2148" alt="{{ site.data.progress.image_alt | escape }}" decoding="async"></a>
+    <figcaption><span>{{ site.data.progress.image_caption }}</span><a href="{{ site.data.progress.image | relative_url }}" target="_blank" rel="noopener">View full size <span aria-hidden="true">↗</span></a></figcaption>
+  </figure>
+</section>
+<section class="build-record content-section" id="drummer">
+  <div class="build-copy">
+    <p class="status">Built &amp; performed</p>
+    <h2>Robotic drummer</h2>
+    <div class="prose">{{ content }}</div>
+  </div>
+  <figure class="build-photo">
+    <img src="{{ page.build_image | relative_url }}" width="3024" height="4032" alt="{{ page.build_image_alt | escape }}" decoding="async">
+  </figure>
+</section>

@@ -1,0 +1,20 @@
+join:
+  - title: Mechanical & design
+    description: Design mechanisms, select actuators, analyze loads, and manufacture components for the arms.
+    tasks: CAD / Load analysis / Fabrication
+  - title: Electrical & controls
+    description: Develop circuit boards, embedded software, actuator control, and the electrical systems that connect the robot.
+    tasks: Electronics / Embedded systems / Motor control
+  - title: Software & autonomy
+    description: Build simulation and control workflows, implement kinematics, and investigate methods for teaching the robot.
+    tasks: ROS 2 / MuJoCo / Robot learning
+  - title: Music, design & communications
+    description: Develop musical material, plan performances, document projects, and communicate the team's work.
+    tasks: Music / Visual design / Documentation
+sponsor:
+  - title: Hardware funding
+    description: Support the purchase of actuators, electronics, and materials for custom arm prototypes.
+  - title: Parts & manufacturing
+    description: Contribute components, machining and fabrication services, equipment access, or engineering software.
+  - title: Technical support
+    description: Review designs and advise the team on mechanisms, controls, electronics, manufacturing, and system integration.

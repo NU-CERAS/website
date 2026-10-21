@@ -1,0 +1,18 @@
+name: Humanoid Robotics Club
+location: Northwestern University
+season: Fall 2026
+objectives:
+  - title: Precise motion
+    description: Develop arm mechanisms and controls for repeatable, coordinated movement around an acoustic drum kit.
+  - title: Physical interaction
+    description: Develop haptics and control methods that allow a person to guide and teach the robot.
+  - title: Learned behavior
+    description: Investigate imitation and reinforcement learning for drumming and other collaborative tasks.
+disciplines:
+  - Mechanical engineering
+  - Electrical engineering
+  - Computer engineering
+  - Computer science
+  - Physics
+  - Music
+  - Communications

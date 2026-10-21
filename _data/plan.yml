@@ -1,0 +1,20 @@
+- period: Fall 2026
+  status: Current
+  title: Design and validation
+  description: Develop custom-arm CAD and manufacturing plans. Simulate drumming and test the control software on OpenArm.
+- period: Winter 2027
+  status: Planned
+  title: Manufacturing and assembly
+  description: Manufacture and assemble arm prototypes, then test the control software on the custom hardware.
+- period: Spring 2027
+  status: Planned
+  title: Integration and demonstration
+  description: Complete a pair of arms for drumming alongside people. Develop human–robot interaction and robot learning.
+- period: 2027–2028
+  status: Planned
+  title: Torso, neck and integration
+  description: Build the torso and neck. Integrate sensing and learned behaviors across the upper body, and begin research on legs and locomotion.
+- period: 2028–2029
+  status: Planned
+  title: Legs and whole-body coordination
+  description: Build and integrate the legs, then develop whole-body coordination. Extend collaboration beyond music to tasks where robots learn from and work alongside people.

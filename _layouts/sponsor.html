@@ -1,0 +1,9 @@
+---
+layout: default
+---
+{% include page-heading.html %}
+<div class="sponsor-contact" id="partner">
+  <div class="sponsor-copy prose">{{ content }}</div>
+  <a class="text-link sponsor-email" href="mailto:{{ site.data.contact.sponsor_email | escape }}?subject=CERAS%20HRC%20sponsorship%20inquiry">{{ site.data.contact.sponsor_email | escape }}</a>
+  {% if site.data.contact.sponsor_email_placeholder %}<p class="note">Placeholder email</p>{% endif %}
+</div>

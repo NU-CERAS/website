@@ -1,0 +1,14 @@
+---
+layout: default
+---
+{% include page-heading.html %}
+<section class="mission-feature">
+  <figure class="concept-visual">
+    <img src="{{ page.feature_image | relative_url }}" width="1536" height="1024" alt="{{ page.feature_image_alt | escape }}" decoding="async">
+  </figure>
+  <div class="prose">{{ content }}</div>
+</section>
+<section class="objectives" aria-labelledby="objectives-title">
+  <div class="section-heading"><h2 id="objectives-title">Engineering objectives</h2></div>
+  {% for objective in page.objectives %}<article class="document-row"><h3>{{ objective.title }}</h3><p>{{ objective.description }}</p></article>{% endfor %}
+</section>

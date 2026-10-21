@@ -1,0 +1,11 @@
+as_of: Fall 2026
+focus: Humanoid robot
+summary: >-
+  So far, we've simulated drumming motions and used dynamics analysis to determine
+  dimensions and materials for a high-capability, dexterous arm. Our software team
+  is building the software stack on the OpenArm platform, while our mechanical
+  team is working through dynamics and linkage dimension calculations, with CAD
+  and FEA starting soon.
+image: /assets/images/mujoco-dynamics-simulator.png
+image_alt: CERAS's custom MuJoCo dynamics simulator showing the basic draft arm in the center, motion controls on the left, and joint torque plots on the right.
+image_caption: Custom MuJoCo dynamics simulator · Basic draft arm

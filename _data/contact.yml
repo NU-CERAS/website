@@ -1,0 +1,7 @@
+# Replace the QR image and invite URL together when Discord is ready.
+discord_url: ""
+discord_qr: /assets/images/discord-qr.png
+
+# Placeholder address until the public sponsorship email is confirmed.
+sponsor_email: sponsors@example.com
+sponsor_email_placeholder: true

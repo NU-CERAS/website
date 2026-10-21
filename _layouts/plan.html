@@ -1,0 +1,15 @@
+---
+layout: default
+---
+{% include page-heading.html %}
+<table class="timeline">
+  <thead><tr><th scope="col">Period</th><th scope="col">Milestone</th></tr></thead>
+  <tbody>
+    {% for phase in site.data.plan %}
+    <tr>
+      <th scope="row">{{ phase.period }}<span class="status">{{ phase.status }}</span></th>
+      <td><h2>{{ phase.title }}</h2><p>{{ phase.description }}</p></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
