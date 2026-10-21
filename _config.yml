@@ -3,8 +3,8 @@ tagline: Humanoid Robotics Club
 description: CERAS HRC is the Humanoid Robotics Club at Northwestern. We develop hardware, controls, and software for humanoid robots, with music as our first application.
 lang: en
 timezone: America/Chicago
-url: ""
-baseurl: ""
+url: "https://nu-ceras.github.io"
+baseurl: "/website"
 theme: minima
 markdown: kramdown
 plugins:
