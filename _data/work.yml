@@ -1,0 +1,30 @@
+# Newest first. Copy an entry to add an update; give it a unique id.
+# Each images item has a path, alt text, and caption. Omit images for text-only updates.
+- id: development
+  period: October 2026 · Fall Quarter
+  title: Developing the humanoid
+  bullets:
+    - Built a dual-arm OpenArm drumming simulation with independently queued drum strikes.
+    - Validated arm geometries and analyzed joint torques to guide custom hardware design.
+    - Advancing mechanical design, controls, and robot learning toward a collaborative humanoid drummer.
+  images:
+    - path: /assets/images/openarm-drumming-simulation.png
+      alt: Two simulated OpenArm arms holding drumsticks at a full drum kit, with interactive drum controls.
+      caption: OpenArm drumming simulation · Two arms, independent strike queues
+    - path: /assets/images/mujoco-dynamics-simulator.png
+      alt: CERAS’s custom MuJoCo simulator showing a draft arm, motion controls, and joint torque plots.
+      caption: Custom dynamics simulator · Arm motion and joint torque analysis
+- id: drummer
+  period: Before September 2026
+  title: Original robotic drummer
+  bullets:
+    - Engineered a six-arm robotic drummer with over 100 custom moving parts.
+    - Took the robot from build to completion in under two academic quarters.
+    - Brought robotic drumming to the stage in live campus concerts.
+  images:
+    - path: /assets/images/first-concert-team.jpg
+      alt: The CERAS team and musicians gathered with the robotic drummer after its first concert.
+      caption: The team after our first robotic drummer concert
+    - path: /assets/images/drumming-system.jpg
+      alt: The completed CERAS robotic drummer in the workshop with its acoustic drum kit.
+      caption: The original six-arm drummer · Custom-built for an acoustic drum kit

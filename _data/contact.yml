@@ -2,6 +2,6 @@
 discord_url: ""
 discord_qr: /assets/images/discord-qr.png
 
-# Placeholder address until the public sponsorship email is confirmed.
-sponsor_email: sponsors@example.com
-sponsor_email_placeholder: true
+# Sponsorship contact.
+sponsor_email: bradylin2027@u.northwestern.edu
+sponsor_email_placeholder: false

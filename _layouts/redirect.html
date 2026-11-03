@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Our work · CERAS HRC</title>
+  <meta http-equiv="refresh" content="0; url={{ '/' | relative_url }}#work">
+  <link rel="canonical" href="{{ '/' | absolute_url }}#work">
+  <script>
+    var destination = {{ '/' | relative_url | jsonify }};
+    var anchor = window.location.hash;
+    window.location.replace(destination + (anchor === '#drummer' || anchor === '#development' ? anchor : '#work'));
+  </script>
+</head>
+<body><p>Our progress is now on the homepage. <a href="{{ '/' | relative_url }}#work">Explore our work.</a></p></body>
+</html>

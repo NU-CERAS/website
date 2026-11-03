@@ -10,6 +10,7 @@
     <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
   </head>
   <body class="page-{{ page.page_class | default: 'standard' }}">
+    <div class="brand-watermark" aria-hidden="true">{% include hand.html %}</div>
     <a class="skip-link" href="#main">Skip to content</a>
     {% include header.html %}
     <main class="shell site-main" id="main" tabindex="-1">{{ content }}</main>

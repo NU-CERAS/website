@@ -1,8 +1,5 @@
 ---
-layout: plan
-page_class: plan
-title: Plan
+layout: redirect
+title: Our work
 permalink: /plan/
-headline: Our timeline.
-intro: Our timeline for the humanoid robot.
 ---
