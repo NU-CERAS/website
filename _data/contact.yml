@@ -1,5 +1,5 @@
-# Replace the QR image and invite URL together when Discord is ready.
-discord_url: ""
+# Keep the QR image and invite URL in sync.
+discord_url: "https://discord.gg/aRdbswwR57"
 discord_qr: /assets/images/discord-qr.png
 
 # Sponsorship contact.
