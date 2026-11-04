@@ -4,9 +4,9 @@
   period: October 2026 · Fall Quarter
   title: Developing the humanoid
   bullets:
-    - Developing custom arms and built a drumstick end effector for a more secure grip.
-    - Built a simulation of OpenArms drumming, with software intended for our custom arms.
-    - Successfully transferred simulated motions to physical OpenArm hardware.
+    - Hardware team — custom arm design, a custom dynamics simulator, and a drumstick-gripping end effector.
+    - Software team — OpenArm drumming simulation and RL experiments for later transfer to our custom arms.
+    - Achieved sim-to-real transfer on OpenArm hardware, bringing simulated motions onto physical arms.
   images:
     - path: /assets/images/openarm-drumming-simulation.png
       alt: Two simulated OpenArm arms holding drumsticks at a full drum kit, with interactive drum controls.
