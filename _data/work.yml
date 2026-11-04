@@ -4,13 +4,13 @@
   period: October 2026 · Fall Quarter
   title: Developing the humanoid
   bullets:
-    - Our hardware team is building our own arm design, guided by validated geometries and joint torque analysis.
-    - Our software team built a dual-arm OpenArm drumming simulation with independent strike queues and is bringing it to existing OpenArm hardware for later migration to our custom arms.
-    - Successfully demonstrated sim-to-real transfer on OpenArm hardware, bringing simulated motions onto physical arms.
+    - Developing custom arms and built a drumstick end effector for a more secure grip.
+    - Built a simulation of OpenArms drumming, with software intended for our custom arms.
+    - Successfully transferred simulated motions to physical OpenArm hardware.
   images:
     - path: /assets/images/openarm-drumming-simulation.png
       alt: Two simulated OpenArm arms holding drumsticks at a full drum kit, with interactive drum controls.
-      caption: OpenArm drumming simulation · Two arms, independent strike queues
+      caption: OpenArm drumming simulation
     - path: /assets/images/mujoco-dynamics-simulator.png
       alt: CERAS’s custom MuJoCo simulator showing a draft arm, motion controls, and joint torque plots.
       caption: Custom dynamics simulator · Arm motion and joint torque analysis
