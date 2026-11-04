@@ -12,4 +12,4 @@ By the end of Spring quarter, we’ll have built an upper-body humanoid robot wi
 
 With support from numerous Northwestern labs and robotics faculty, we’ve made substantial progress in mechanical design, controls, and robot learning. Explore the site to see our progress and plans.
 
-For our first demo, **our robot will play the drums alongside human musicians, listening and interacting in real time.**
+For our first demo, our robot will play the drums alongside human musicians, listening and interacting in real time.
