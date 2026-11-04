@@ -4,9 +4,8 @@
   period: October 2026 · Fall Quarter
   title: Developing the humanoid
   bullets:
-    - Built a dual-arm OpenArm drumming simulation with independently queued drum strikes.
     - Our hardware team is building our own arm design, guided by validated geometries and joint torque analysis.
-    - Our software team is getting existing OpenArm hardware to drum, developing software we can later migrate to our custom arms.
+    - Our software team built a dual-arm OpenArm drumming simulation with independent strike queues and is bringing it to existing OpenArm hardware for later migration to our custom arms.
     - Successfully demonstrated sim-to-real transfer on OpenArm hardware, bringing simulated motions onto physical arms.
   images:
     - path: /assets/images/openarm-drumming-simulation.png
