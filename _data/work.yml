@@ -5,8 +5,9 @@
   title: Developing the humanoid
   bullets:
     - Built a dual-arm OpenArm drumming simulation with independently queued drum strikes.
-    - Validated arm geometries and analyzed joint torques to guide custom hardware design.
-    - Advancing sim-to-real transfer through mechanical design, controls, and robot learning to bring simulated drumming to physical hardware.
+    - Our hardware team is building our own arm design, guided by validated geometries and joint torque analysis.
+    - Our software team is getting existing OpenArm hardware to drum, developing software we can later migrate to our custom arms.
+    - Successfully demonstrated sim-to-real transfer on OpenArm hardware, bringing simulated motions onto physical arms.
   images:
     - path: /assets/images/openarm-drumming-simulation.png
       alt: Two simulated OpenArm arms holding drumsticks at a full drum kit, with interactive drum controls.
