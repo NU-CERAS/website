@@ -2,6 +2,10 @@
 discord_url: "https://discord.gg/aRdbswwR57"
 discord_qr: /assets/images/discord-qr.png
 
+# questionaire qr and link
+questionnaire_url: https://docs.google.com/forms/d/e/1FAIpQLScDVgJJY4540KpR12U6XF0sP859dXBKOs5HkZzvGx57BPmaEw/viewform
+questionnaire_qr: /assets/images/questionaire-qr.png
+
 # Sponsorship contact.
 sponsor_email: bradylin2027@u.northwestern.edu
 sponsor_email_placeholder: false
